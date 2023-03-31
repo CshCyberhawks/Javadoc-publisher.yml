@@ -124,5 +124,5 @@ runs:
         token: ${{ inputs.GITHUB_TOKEN }}
         branch: ${{ inputs.javadoc-branch }}
         clean: true
-        folder: build/docs/javadoc
+        folder: build/dokka/html
         target-folder: ${{ inputs.target-folder }}
